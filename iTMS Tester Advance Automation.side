@@ -1,0 +1,389 @@
+{
+  "id": "535896b4-2d44-423e-a464-3a1df7bc65d3",
+  "version": "2.0",
+  "name": "iTMS Tester Advance Automation",
+  "url": "http://www.practiceselenium.com/welcome.html?firstname=iTMS&lastname=Coaching&sex=Male&exp=7&RedTea=Red+Tea&oolongtea=oolong+tea&tool=Break&tool=Harmless+Addiction&continents=Asia&selenium_commands=Browser+Commands&submit=",
+  "tests": [{
+    "id": "36fd453d-ab66-4874-b330-7621e36b3f36",
+    "name": "Practice Form",
+    "commands": [{
+      "id": "cc4c488c-a86a-4f39-b7c4-dac1f1f55f7d",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.practiceselenium.com/practice-form.html?fbclid=IwAR0bORwEX83CiMGz7coFjc-DBNz3W70r7lQoG1nJwJgD2xHwCa_OWq8toQ0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e36185c-5271-448f-906f-c7d9b2eb3dc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1299x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e056546d-d012-4aa5-a075-f3b3ee952169",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf042747-6306-442c-a750-a9da55120851",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iTMS"
+    }, {
+      "id": "b8d00ae3-ff17-4c1b-9e8f-67e91c8fbe01",
+      "comment": "",
+      "command": "click",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.control-group:nth-child(4) > p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c2d76cd-d8fd-4be8-ad8b-5994a9f4a56b",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.control-group:nth-child(4) > p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "Coaching"
+    }, {
+      "id": "674bfe84-1f0c-4b74-ae03-cea7234f77ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=exp-6",
+      "targets": [
+        ["id=exp-6", "id"],
+        ["css=#exp-6", "css:finder"],
+        ["xpath=//input[@id='exp-6']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[3]/p[2]/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b96cbaf-2f4d-4bc6-813f-ddffd22fc8f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea3",
+      "targets": [
+        ["id=tea3", "id"],
+        ["name=oolongtea", "name"],
+        ["css=#tea3", "css:finder"],
+        ["xpath=//input[@id='tea3']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90bf602c-6b08-4373-ad99-515a8be8741d",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea2",
+      "targets": [
+        ["id=tea2", "id"],
+        ["name=RedTea", "name"],
+        ["css=#tea2", "css:finder"],
+        ["xpath=//input[@id='tea2']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c37970-5be7-497c-9620-e38a15b2c541",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-0",
+      "targets": [
+        ["id=tool-0", "id"],
+        ["name=tool", "name"],
+        ["css=#tool-0", "css:finder"],
+        ["xpath=//input[@id='tool-0']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "512fe86b-00f6-4fd3-8ae7-91094197dfe8",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-1",
+      "targets": [
+        ["id=tool-1", "id"],
+        ["css=#tool-1", "css:finder"],
+        ["xpath=//input[@id='tool-1']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb79edcc-6f0f-4171-89e1-b7e8deb97178",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e802c17-9719-48f4-b809-e948dce145c8",
+      "comment": "",
+      "command": "select",
+      "target": "id=continents",
+      "targets": [],
+      "value": "label=Asia"
+    }, {
+      "id": "17a9cdb2-ef98-466a-ba1a-76f652984cf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68ffb70-f1eb-457e-95ef-05f76cb81efa",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Browser Commands"
+    }, {
+      "id": "e51d4b52-0cc0-4bdc-aa76-0b16e8122638",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[9]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ec4963-1d4a-4d7d-99da-1b611b1cf797",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000450914886']/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "We're passionate about tea. "
+    }, {
+      "id": "dca96177-f1f7-46b0-b3fe-842f794cb2e5",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6299ccd5-fa32-4ba3-94e7-ac619fb953de",
+    "name": "Verify",
+    "commands": [{
+      "id": "d08f4b82-6622-41a1-a9e1-da84144410ce",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0918aa0a-49de-4e44-9919-286bd8cbf674",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1298x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1eb0f7cb-9dce-40fc-9d64-f813e8a135d0",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c73ba111-099c-4e91-aab9-ec3db9550ecc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f6e965-7d93-4f79-a2cb-39d94ecd27e2",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Login - My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acc8092f-d201-4b53-9669-26c5db1e0767",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin > span",
+      "targets": [
+        ["css=#SubmitLogin > span", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce836cf-fd62-4f4c-bf54-9f6628864d9e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=ol > li",
+      "targets": [
+        ["css=ol > li", "css:finder"],
+        ["xpath=//div[@id='center_column']/div/ol/li", "xpath:idRelative"],
+        ["xpath=//ol/li", "xpath:position"],
+        ["xpath=//li[contains(.,'An email address required.')]", "xpath:innerText"]
+      ],
+      "value": "An email address required."
+    }]
+  }, {
+    "id": "615e8517-fe8a-461b-9492-7ef26568865e",
+    "name": "Switch Windows",
+    "commands": [{
+      "id": "43cc6e16-44f3-4952-b2cb-cf2b48a61060",
+      "comment": "",
+      "command": "open",
+      "target": "https://itmscoaching.herokuapp.com/switch-window",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dc33f59-2ddb-40ef-91de-1df3ac297e32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1298x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07989d34-b7e8-42ff-84a1-6cf9c37a44e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=new-tab-button",
+      "targets": [
+        ["id=new-tab-button", "id"],
+        ["css=#new-tab-button", "css:finder"],
+        ["xpath=//button[@id='new-tab-button']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open new tab')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9696",
+      "windowTimeout": 2000
+    }, {
+      "id": "be66525d-3862-4474-9631-2c9125733fe1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9b4da35-adf8-4d43-84f7-86b1e16de6ca",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9696}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b820ad3-63ac-4f02-b75c-2c6e58108d8c",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa771aa4-5ef0-4502-8cc6-c234e8ed54ad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "107a24f5-1a05-47e2-80d1-4033cdc9e8ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-button",
+      "targets": [
+        ["id=alert-button", "id"],
+        ["css=#alert-button", "css:finder"],
+        ["xpath=//button[@id='alert-button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open alert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c9090c5-b8e8-4420-bceb-96cdaf1f526b",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This is a test alert!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05ad8bb7-bec2-4d45-9401-0067822a42c6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36fd453d-ab66-4874-b330-7621e36b3f36"]
+  }],
+  "urls": ["http://www.practiceselenium.com/practice-form.html?fbclid=IwAR0bORwEX83CiMGz7coFjc-DBNz3W70r7lQoG1nJwJgD2xHwCa_OWq8toQ0", "http://automationpractice.com/index.php?fbclid=IwAR0bORwEX83CiMGz7coFjc-DBNz3W70r7lQoG1nJwJgD2xHwCa_OWq8toQ0", "https://l.facebook.com/l.php?u=https%3A%2F%2Fitmscoaching.herokuapp.com%2Fswitch-window%3Ffbclid%3DIwAR0bORwEX83CiMGz7coFjc-DBNz3W70r7lQoG1nJwJgD2xHwCa_OWq8toQ0&h=AT0pfmfchoI2BQRbbEZGUirPHeaR25QrvEJqfZt8-tFOq0GPRE5RS5d6tVb43WMvBOUipu-FzDz6bekiVEfhgHaf8FRQBEcz1uVfRNek_l10o71Y6a54GZWWX8NsMDR98GjfSN0BG2ddXdb4bSN8&__tn__=-U-UK-R&c[0]=AT2iPw9aFVTgpsxiR1T_ECIq6qh6su_epo8RliMWTyZqDzS5-BoHpYrGw7yoEO0q4W2wPD_-d3pEdEcQr6jUAv3Ms75cvKt86IZlBO1dNI27RYSAX3_lL9NyXdpRxp7tU4HPxxaWUZKFZLYtlE-eW-cr-esVPlrMtvAH73n882217s63gqzIURWPtJh11kknYdBbAdaCSOSErg", "http://automationpractice.com/index.php", "https://itmscoaching.herokuapp.com/switch-window", "http://www.practiceselenium.com/welcome.html?firstname=iTMS&lastname=Coaching&sex=Male&exp=7&RedTea=Red+Tea&oolongtea=oolong+tea&tool=Break&tool=Harmless+Addiction&continents=Asia&selenium_commands=Browser+Commands&submit="],
+  "plugins": []
+}
